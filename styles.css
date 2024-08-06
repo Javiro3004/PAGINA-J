@@ -1,0 +1,16 @@
+/*navbar*/
+.navbar{
+    background-color: rgb(97, 97, 101) !important;   
+    padding: 2rem;
+}
+
+
+.navbar-collapse{
+    align-items: end !important;
+    justify-content: space-between !important;
+}
+
+
+.item{
+    color: rgb(219, 214, 214) !important;
+}
