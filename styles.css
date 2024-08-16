@@ -1,8 +1,10 @@
 /*navbar*/
 .navbar{
-    background-color: rgb(97, 97, 101) !important;   
-    padding: 2rem;
+    background-color: rgb(18, 16, 31) !important;   
+    padding: 1rem;
+    min-height: 75px;
 }
+
 
 
 .item{
@@ -16,11 +18,15 @@
     padding-top: 0% !important;
 }
 
+.nav-link:hover{
+    color: rgb(3, 248, 3) !important;
+}
 
 .size{
     font-size: larger  !important;
 }
 
+/*hero*/
 .hero{
     background-color: #f5f6f7;
     text-align: center;
@@ -31,8 +37,9 @@
     padding: 3rem;
 }
 .hero-imagen{
-    width: 250px;
-    height: 250px;
+    padding-top: 40px;
+    width: 270px;
+    height: 270px;
     border-radius: 50%;
     margin: 0px;
 }
@@ -47,9 +54,128 @@ h1{
     color: #615151;
 }
 
+/*sobre nosotros*/
+.sobre-nosotros{
+    min-height: 450px;
+    background-color: rgb(18, 16, 31);
+    max-height: 600px;
+    padding: 10px;
+}
+
+.sobre-contenedor{
+    text-align: center;
+    padding: 20px;
+}
+.sobre-titulo{
+    font-family: "Rubik Dirt", sans-serif;
+    font-size:50px;
+    padding: 40px;
+    color: rgb(219, 214, 214);
+}
+
+.sobre-texto{
+    font-size: larger;
+    color: rgb(219, 214, 214);
+}
+
+/*target*/
+#que-hacemos{
+    background-color: #f5f6f7;
+}
+
+.row{
+    width: 100%;
+    margin-top: 5px;
+}
+
+.target-desarrollo{
+    text-align: center;
+}
+
+.columna{
+    transition: all 0.2s ease-in;
+    padding: 20px 40px 20px 40px !important;
+    margin: 10px 0px 10px 0px !important;
+    border: 2px solid #8080804d;
+    padding: 20px;
+}
+
+.columna:hover{
+    color: rgb(245, 242, 242);
+    background-color: rgb(18, 16, 31);
+    
+}
+
+.columna:hover .icon-desarrollo{
+    color: rgb(3, 248, 3) !important;
+}
+
+.columna:hover .icon-publicidad{
+    color: rgb(3, 248, 3) !important;
+}
+
+.target-titulo{
+    font-size: 25px;
+    font-weight: bold;
+    margin: 10px 0px ;
+    text-align: center;
+}
+
+.target-texto{
+    font-size: larger;
+}
+
+.target-publicidad{
+    text-align: center;
+    padding: 20px 40px 20px 40px !important;
+    
+}
+
+.icon-publicidad{
+    font-size: larger;
+}
+.icon-desarrollo{
+    font-size: larger;
+}
+
+/*footer*/
+footer{
+    background-color: rgb(18, 16, 31);
+    color: #f5f6f7;
+    text-align: center;
+}
+
+.siguenos-en{
+    border-right: 2px solid #8080804d
+}
+
+.footer h2{
+    font-family: "Rubik Dirt", sans-serif;
+    font-size: 35px;
+    
+}
+
+.footer p{
+    width: 250px;
+    text-align: center;
+    display: grid;
+    place-items: center;
+    justify-content: center;
+    padding-right: 50px;
+    
+}
+
+
+
 /* responsive desing*/
 @media screen and (min-width: 700px) {
     .hero-inferior-img{
         max-width: 600px !important;
+    }
+}
+@media screen and (max-width: 500px) {
+    .sobre-titulo{
+        font-size: 40px;
+        padding: 30px;
     }
 }
