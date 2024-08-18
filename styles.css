@@ -142,30 +142,54 @@ h1{
 footer{
     background-color: rgb(18, 16, 31);
     color: #f5f6f7;
-    text-align: center;
+    max-width: 100%;
+    min-height: 500px;
 }
 
-.siguenos-en{
-    border-right: 2px solid #8080804d
+.footer-txt{
+    font-size: 1.5rem ;
+    padding: 20px;
 }
 
-.footer h2{
-    font-family: "Rubik Dirt", sans-serif;
-    font-size: 35px;
-    
+.logo{
+    width: 200px;
+    height: 200px;
+    margin: 10px ;
 }
 
-.footer p{
-    width: 250px;
-    text-align: center;
-    display: grid;
-    place-items: center;
+.icons a{
+    width: 50px;
+    height: 50px;
+    padding: 2px;
+    color: #f5f6f7;
+    display: flex;
+    align-items: center;
     justify-content: center;
-    padding-right: 50px;
-    
+    margin: 10px;
+    border: 2px solid #f5f6f7;
+    border-radius: 50%;
+    transition: all 0.2s ease-in;
 }
 
+.icons i{
+    font-size: 1.5rem;
+    color: #f5f6f7;
+    transition: all 0.2s ease-in;
+}
 
+.icons a:hover{
+    background-color:#f5f6f7;
+    border: 2px solid  rgb(18, 16, 31);
+}
+
+.icons a:hover i{
+    color:  rgb(18, 16, 31);
+}
+
+.copyright{
+    margin-top: 30px;
+    color: #8080804d;
+}
 
 /* responsive desing*/
 @media screen and (min-width: 700px) {

@@ -1,0 +1,144 @@
+body {
+    padding-top: 70px; /* altura del navbar */
+}
+/*navbar*/
+.navbar{
+    background-color: rgb(18, 16, 31) !important;   
+    padding: 1rem;
+    min-height: 75px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 10; /* Valor alto para mantener el navbar encima */
+
+}
+
+.item{
+    color: rgb(219, 214, 214) !important;
+}
+
+.nav-link{
+    color: #f5f6f7 !important;
+    padding: 1rem !important;
+    padding-bottom: 0% !important;
+    padding-top: 0% !important;
+}
+
+.nav-link:hover{
+    color: rgb(3, 248, 3) !important;
+}
+
+.size{
+    font-size: larger  !important;
+}
+
+/*form*/
+input {
+    z-index: 1 !important;
+}
+
+.form{
+    z-index: 1;
+    border-radius: 5px;
+}
+
+div.form {
+    margin-top: 70px; /* altura del navbar */
+    border-radius: 5px;
+}
+
+.small-container{
+    border: 2px solid #8080804d;
+    border-radius: 10px;
+    width: 400px;
+    padding: 30px;
+    text-align: center;
+}
+
+.container {
+    min-height: 600px;
+    max-width: 100%;
+    background-color: transparent;
+}
+
+button{
+    background-color: rgb(18, 16, 31);
+}
+
+.input1:hover {
+    border: 2px solid rgb(18, 16, 31);
+    color: rgb(18, 16, 31);
+}
+
+.input2:hover {
+    border: 2px solid rgb(18, 16, 31);
+    color: rgb(18, 16, 31);
+}
+
+.input3:hover {
+    border: 2px solid rgb(18, 16, 31);
+    color: rgb(18, 16, 31);
+}
+
+.input4:hover {
+    border: 2px solid rgb(18, 16, 31);
+    color: rgb(18, 16, 31);
+}
+
+.input5:hover {
+    border: 2px solid rgb(18, 16, 31);
+    color: rgb(18, 16, 31);
+}
+
+/*footer*/
+footer{
+    background-color: rgb(18, 16, 31);
+    color: #f5f6f7;
+    max-width: 100%;
+    min-height: 500px;
+}
+
+.footer-txt{
+    font-size: 1.5rem ;
+    padding: 20px;
+}
+
+.logo{
+    width: 200px;
+    height: 200px;
+    margin: 10px ;
+}
+
+.icons a{
+    width: 50px;
+    height: 50px;
+    padding: 2px;
+    color: #f5f6f7;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 10px;
+    border: 2px solid #f5f6f7;
+    border-radius: 50%;
+    transition: all 0.2s ease-in;
+}
+.icons i{
+    font-size: 1.5rem;
+    color: #f5f6f7;
+    transition: all 0.2s ease-in;
+}
+
+.icons a:hover{
+    background-color:#f5f6f7;
+    border: 2px solid  rgb(18, 16, 31);
+}
+
+.icons a:hover i{
+    color:  rgb(18, 16, 31);
+}
+
+.copyright{
+    margin-top: 30px;
+    color: #8080804d;
+}
