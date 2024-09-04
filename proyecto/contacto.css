@@ -34,6 +34,19 @@ body {
 }
 
 /*form*/
+
+.bueno{
+    color: rgb(22, 224, 22);
+}
+
+.shadow{
+    box-shadow: 0 0 10px rgb(255, 6, 6)  !important;
+}
+
+.error{
+    color: red;
+}
+
 input {
     z-index: 1 !important;
 }
