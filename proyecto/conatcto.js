@@ -2,6 +2,8 @@ const userName = document.getElementById("exampleFormControlInput1");
 const email = document.getElementById("exampleFormControlInput2");
 const numberPhone = document.getElementById("exampleFormControlInput3");
 
+/*verif nombre*/
+
 userName.addEventListener("input", function (e){
     const verifvacio = e.target;
     const verif = e.target.value;
@@ -19,6 +21,9 @@ userName.addEventListener("input", function (e){
     }
 });
 
+
+/*verifemail*/
+
 email.addEventListener("input", function (e){
     const emailinput = e.target;
     const emailverif  = e.target.value;
@@ -34,6 +39,8 @@ email.addEventListener("input", function (e){
         emailinput.nextElementSibling.innerText = "parece estar bien ";
     }
 })
+/* verif number phone */
+
 
 numberPhone.addEventListener("input", function (e){
     const phoneinput = e.target;
