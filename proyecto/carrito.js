@@ -5,7 +5,7 @@ let carrito = [];
 function agregarProductoAlCarrito(producto, precio) {
     const productoObj = {
         producto: producto,
-        10000: precio
+        precio:1000
     };
 
     carrito.push(productoObj);
